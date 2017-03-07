@@ -5,7 +5,7 @@ MAINTAINER "kenjimyzk"
 RUN apt-get install -y libnlopt-dev
 # Install packages
 RUN Rscript -e "install.packages(c('mosaic', 'latticeExtra'))"
-RUN Rscript -e "install.packages(c('xtable', 'stargazer', 'texreg'))"
+RUN Rscript -e "install.packages(c('xtable', 'stargazer', 'texreg','tables','tufte'))"
 RUN Rscript -e "install.packages(c('AER', 'dynlm', 'plm'))"
 RUN Rscript -e "install.packages(c('vcd', 'vcdExtra'))"
 
