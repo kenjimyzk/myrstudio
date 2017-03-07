@@ -9,7 +9,16 @@ output:
 header-includes:
   - \usepackage{xltxtra}
   - \usepackage{zxjatype}
-  - \usepackage[ipa]{zxjafont}
+  - \usepackage[ipa]{zxjafont}  
+  - \def\contentsname{目次}
+  - \def\listfigurename{図目次}
+  - \def\listtablename{表目次}
+  - \def\refname{参考文献}
+  - \def\bibname{参考文献}
+  - \def\indexname{索引}
+  - \def\figurename{図}
+  - \def\tablename{表}
+  - \def\abstractname{概要}
 ---
 ```{r, echo=FALSE}
 library(knitr)
